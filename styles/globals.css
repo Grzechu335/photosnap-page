@@ -1,26 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply font-sans;
+    }
+    li {
+        @apply text-[12px] leading-[16px] tracking-[2px] font-bold cursor-pointer;
+    }
+    body {
+        @apply text-[15px] leading-[25px] tracking-[0] font-sans;
+    }
+    h1,
+    h2 {
+        @apply text-[32px] sm:text-[40px] leading-[40px] sm:leading-[48px] tracking-[3.33px] sm:tracking-[4.17px] uppercase;
+    }
+    h3 {
+        @apply text-[24px] leading-[25px] tracking-[0];
+    }
+    h4 {
+        @apply text-[12px] leading-[16px] tracking-[2px];
+    }
+    button {
+        @apply text-[12px] leading-[16px] tracking-[2px];
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@layer components {
+    .main-accent-bg {
+        background-image: linear-gradient(
+            26.57deg,
+            #ffc593 0.42%,
+            #bc7198 43.46%,
+            #5a77ff 83.33%
+        );
+    }
+    .stories-content-bg {
+        background-image: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.0001) 0.27%,
+            rgba(0, 0, 0, 0.661222) 100%
+        );
+    }
+    .button-rect-black {
+        @apply cursor-pointer whitespace-nowrap py-4 sm:py-3 font-sans uppercase px-6 text-pure-white bg-pure-black  text-[12px] leading-[16px] tracking-[2px] hover:bg-light-gray hover:text-pure-black;
+    }
+    .button-rect-white {
+        @apply whitespace-nowrap cursor-pointer py-3 px-6 uppercase text-pure-black bg-pure-white text-[12px] leading-[16px] tracking-[2px] hover:bg-light-gray;
+    }
+    .footer-li {
+        @apply uppercase font-[12px] leading-[16px] tracking-[2px] cursor-pointer;
+    }
 }
