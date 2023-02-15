@@ -43,6 +43,10 @@
             rgba(0, 0, 0, 0.661222) 100%
         );
     }
+
+    .story-hover {
+        @apply after:w-full after:h-[6px] after:absolute after:left-0 after:bottom-0 after:main-accent-bg  ease-in cursor-pointer;
+    }
     .bg-transparent {
         background-color: transparent;
     }
@@ -53,6 +57,6 @@
         @apply whitespace-nowrap cursor-pointer py-3 px-6 uppercase text-pure-black bg-pure-white text-[12px] leading-[16px] tracking-[2px] hover:bg-light-gray;
     }
     .footer-li {
-        @apply uppercase font-[12px] leading-[16px] tracking-[2px] cursor-pointer;
+        @apply uppercase font-[12px] leading-[16px] tracking-[2px] cursor-pointer hover:text-pure-white/30;
     }
 }

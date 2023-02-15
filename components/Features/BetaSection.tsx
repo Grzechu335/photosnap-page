@@ -28,6 +28,7 @@ const BetaSection = () => {
                 }}
             />
             <div className="relative max-w-screen-xl mx-auto py-[64px] sm:py-[68px] px-[33px] xl:px-[170px]">
+                <span className="absolute xl:hidden block left-[33px] top-0 my-auto w-1/3 h-[6px] main-accent-bg z-20"></span>
                 <div className="grid sm:grid-cols-4">
                     <div className="sm:col-span-2">
                         <h2>We’re in beta. Get your invite today!</h2>

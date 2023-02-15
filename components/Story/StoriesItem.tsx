@@ -14,12 +14,12 @@ type Props = {
 
 const StoriesItem = ({ title, createdBy, date, images }: Props) => {
     return (
-        <div className="relative h-[375px] sm:h-[500px] flex items-end cursor-pointer">
+        <div className="relative h-[375px] sm:h-[500px] flex items-end cursor-pointer transition hover:-translate-y-1 hover:scale-[102%] ease-in duration-200 hover:story-hover">
             {/* Photo Background */}
             <Image
                 src={images.desktop}
                 alt="story image"
-                className=" -z-40 absolute"
+                className="absolute -z-40"
                 style={{
                     objectFit: 'cover',
                     width: '100%',

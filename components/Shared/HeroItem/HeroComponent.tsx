@@ -35,10 +35,13 @@ function HeroComponent({
             }  grid sm:grid-cols-3 xl:grid-cols-5`}
         >
             <div
-                className={`sm:col-span-2 flex flex-col justify-center px-[33px] sm:px-[54px] xl:px-[112px] py-[72px]  ${
+                className={`relative sm:col-span-2 flex flex-col justify-center px-[33px] sm:px-[54px] xl:px-[112px] py-[72px]  ${
                     numberOfRender % 2 === 0 ? 'sm:order-1' : 'sm:order-2'
                 } order-2`}
             >
+                {numberOfRender === 0 && (
+                    <span className="absolute block xl:left-0 top-0 xl:top-1/2 left-[33px] xl:transform xl:translate-y-[-50%] w-1/3 xl:w-[6px] h-[6px] xl:h-1/2 main-accent-bg"></span>
+                )}
                 <HeroTextItem
                     text={text}
                     buttonText={buttonText}

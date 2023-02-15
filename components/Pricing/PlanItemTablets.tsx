@@ -14,8 +14,11 @@ const PlanItemTablets = ({ plan, description, price, renderNumber }: Props) => {
                 renderNumber === 1
                     ? 'bg-pure-black text-pure-white my-0'
                     : 'bg-light-gray text-pure-black my-[30px]'
-            } p-[40px] mx-[40px] grid grid-cols-2`}
+            } p-[40px] mx-[40px] grid grid-cols-2 relative`}
         >
+            {renderNumber === 1 && (
+                <span className="absolute xl:hidden block left-0 top-0 my-auto w-full h-[6px] main-accent-bg z-20"></span>
+            )}
             <div>
                 <h3>{plan}</h3>
                 <p

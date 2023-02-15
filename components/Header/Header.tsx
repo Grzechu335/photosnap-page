@@ -25,13 +25,19 @@ function Header() {
                     <div className="hidden sm:flex">
                         <ul className="flex items-center space-x-[37px]">
                             <Link href="/stories">
-                                <li className="uppercase">Stories</li>
+                                <li className="uppercase hover:text-pure-black/30">
+                                    Stories
+                                </li>
                             </Link>
                             <Link href="/features">
-                                <li className="uppercase">Features</li>
+                                <li className="uppercase hover:text-pure-black/30">
+                                    Features
+                                </li>
                             </Link>
                             <Link href="/pricing">
-                                <li className="uppercase">Pricing</li>
+                                <li className="uppercase hover:text-pure-black/30">
+                                    Pricing
+                                </li>
                             </Link>
                         </ul>
                     </div>
