@@ -8,7 +8,7 @@ import { storiesData } from '../public/assets/data/homePageData'
 
 const stories = () => {
     return (
-        <div className="w-full mt-[72px]">
+        <div className="w-full mt-[72px] overflow-x-hidden">
             <Head>
                 <title>Stories</title>
                 <meta
