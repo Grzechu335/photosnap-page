@@ -21,7 +21,7 @@ export const plansData = [
             'Includes basic usage of our platform. Recommended for new and aspiring photographers.',
         price: {
             monthly: '19.00',
-            yearly: '190.00',
+            yearly: '10.00',
         },
     },
     {
@@ -30,7 +30,7 @@ export const plansData = [
             'More advanced features available. Recommended for photography veterans and professionals.',
         price: {
             monthly: '39.00',
-            yearly: '390.00',
+            yearly: '25.00',
         },
     },
     {
@@ -39,7 +39,7 @@ export const plansData = [
             'Additional features available such as more detailed metrics. Recommended for business owners.',
         price: {
             monthly: '99.00',
-            yearly: '990.00',
+            yearly: '70.00',
         },
     },
 ]
