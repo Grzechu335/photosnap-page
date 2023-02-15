@@ -7,7 +7,8 @@ import {
     AiOutlineInstagram as InstagramIcon,
 } from 'react-icons/ai'
 import { BsPinterest as PinterestIcon } from 'react-icons/bs'
-import ArrowButton from '../ArrowButton'
+import Link from 'next/link'
+import ArrowButton from '../Shared/ArrowButton'
 
 const FooterMobile = () => {
     return (
@@ -22,10 +23,18 @@ const FooterMobile = () => {
             </div>
             <div className="mt-[49px]">
                 <ul className="flex flex-col items-center space-y-6">
-                    <li className="footer-li">Home</li>
-                    <li className="footer-li">Stories</li>
-                    <li className="footer-li">Features</li>
-                    <li className="footer-li">Pricing</li>
+                    <Link href="/">
+                        <li className="footer-li">Home</li>
+                    </Link>
+                    <Link href="/stories">
+                        <li className="footer-li">Stories</li>
+                    </Link>
+                    <Link href="/features">
+                        <li className="footer-li">Features</li>
+                    </Link>
+                    <Link href="/pricing">
+                        <li className="footer-li">Pricing</li>
+                    </Link>
                 </ul>
             </div>
             <div className="mt-[119px]">

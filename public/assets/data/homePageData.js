@@ -10,10 +10,6 @@ import thirdPhotoDesktop from '../home/desktop/designed-for-everyone.jpg'
 import thirdPhotoTablet from '../home/tablet/designed-for-everyone.jpg'
 import thirdPhotoMobile from '../home/mobile/designed-for-everyone.jpg'
 
-import ResponsiveSVG from '../features/desktop/responsive.svg'
-import NoPhotosSVG from '../features/desktop/no-limit.svg'
-import EmbedSVG from '../features/desktop/embed.svg'
-
 import MountainsDesktop from '../stories/desktop/mountains.jpg'
 import CityscapesDesktop from '../stories/desktop/cityscapes.jpg'
 import DaysVoyageDesktop from '../stories/desktop/18-days-voyage.jpg'
@@ -80,24 +76,6 @@ export const homePageData = [
             tabletImage: thirdPhotoTablet,
             mobileImage: thirdPhotoMobile,
         },
-    },
-]
-
-export const presentationData = [
-    {
-        title: '100% Responsive',
-        text: 'No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.',
-        image: ResponsiveSVG,
-    },
-    {
-        title: 'No Photo Upload Limit',
-        text: 'Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.',
-        image: NoPhotosSVG,
-    },
-    {
-        title: 'Available to Embed',
-        text: 'Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ',
-        image: EmbedSVG,
     },
 ]
 

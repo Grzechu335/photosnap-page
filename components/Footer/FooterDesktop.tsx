@@ -1,5 +1,4 @@
 import React from 'react'
-import ArrowButton from '../ArrowButton'
 import {
     AiFillFacebook as FacebookIcon,
     AiFillYoutube as YoutubeIcon,
@@ -8,11 +7,13 @@ import {
 } from 'react-icons/ai'
 import { BsPinterest as PinterestIcon } from 'react-icons/bs'
 import Logo from '../../public/assets/components-svg/Logo'
+import Link from 'next/link'
+import ArrowButton from '../Shared/ArrowButton'
 
 const FooterDesktop = () => {
     return (
         <div className="hidden xl:grid-cols-4 xl:grid">
-            <div className="flex flex-col justify-between items-center space-y-[85px]">
+            <div className="flex flex-col justify-between  space-y-[85px]">
                 <Logo fill="#fff" />
                 <div className="flex items-center space-x-3">
                     <FacebookIcon size={25} />
@@ -24,14 +25,22 @@ const FooterDesktop = () => {
             </div>
             <div>
                 <ul className="flex flex-col space-y-6">
-                    <li className="footer-li">Home</li>
-                    <li className="footer-li">Stories</li>
-                    <li className="footer-li">Features</li>
-                    <li className="footer-li">Pricing</li>
+                    <Link href="/">
+                        <li className="footer-li">Home</li>
+                    </Link>
+                    <Link href="/stories">
+                        <li className="footer-li">Stories</li>
+                    </Link>
+                    <Link href="/features">
+                        <li className="footer-li">Features</li>
+                    </Link>
+                    <Link href="pricing">
+                        <li className="footer-li">Pricing</li>
+                    </Link>
                 </ul>
             </div>
             <div></div>
-            <div className="flex flex-col justify-between items-end">
+            <div className="flex flex-col items-end justify-between">
                 <div>
                     <ArrowButton
                         value="Get an invite"

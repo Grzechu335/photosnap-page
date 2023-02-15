@@ -1,5 +1,4 @@
 import React from 'react'
-import ArrowButton from '../ArrowButton'
 import {
     AiFillFacebook as FacebookIcon,
     AiFillYoutube as YoutubeIcon,
@@ -8,11 +7,13 @@ import {
 } from 'react-icons/ai'
 import { BsPinterest as PinterestIcon } from 'react-icons/bs'
 import Logo from '../../public/assets/components-svg/Logo'
+import Link from 'next/link'
+import ArrowButton from '../Shared/ArrowButton'
 
 const FooterTablet = () => {
     return (
         <div className="hidden xl:hidden sm:grid grid-rows-4 space-y-[32px]">
-            <div className="flex  justify-between items-center">
+            <div className="flex items-center justify-between">
                 <Logo fill="#fff" />
                 <ArrowButton
                     value="Get an invite"
@@ -21,10 +22,18 @@ const FooterTablet = () => {
             </div>
             <div>
                 <ul className="flex space-x-[26px]">
-                    <li className="footer-li">Home</li>
-                    <li className="footer-li">Stories</li>
-                    <li className="footer-li">Features</li>
-                    <li className="footer-li">Pricing</li>
+                    <Link href="/">
+                        <li className="footer-li">Home</li>
+                    </Link>
+                    <Link href="/stories">
+                        <li className="footer-li">Stories</li>
+                    </Link>
+                    <Link href="/features">
+                        <li className="footer-li">Features</li>
+                    </Link>
+                    <Link href="/pricing">
+                        <li className="footer-li">Pricing</li>
+                    </Link>
                 </ul>
             </div>
             <div></div>

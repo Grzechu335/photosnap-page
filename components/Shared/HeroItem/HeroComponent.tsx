@@ -5,10 +5,10 @@ import HeroImageItem from './HeroImageItem'
 import HeroTextItem from './HeroTextItem'
 
 type Props = {
-    numberOfRender: number
+    numberOfRender?: number
     title: string
     text: string
-    buttonText: string
+    buttonText?: string | undefined
     desktopImage: StaticImageData
     tabletImage: StaticImageData
     mobileImage: StaticImageData
@@ -17,7 +17,7 @@ type Props = {
 type colorVariant = 'black' | 'white'
 
 function HeroComponent({
-    numberOfRender,
+    numberOfRender = 0,
     title,
     text,
     buttonText,

@@ -1,12 +1,10 @@
-import Image from 'next/image'
 import React from 'react'
 import {
     homePageData,
     storiesData,
 } from '../../public/assets/data/homePageData'
-import ArrowButton from '../ArrowButton'
 import StoriesItem from '../Story/StoriesItem'
-import HeroComponent from './HeroComponent'
+import HeroComponent from '../Shared/HeroItem/HeroComponent'
 
 const Hero = () => {
     return (

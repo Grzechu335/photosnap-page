@@ -4,7 +4,7 @@ import ArrowButton from '../ArrowButton'
 type Props = {
     title: string
     text: string
-    buttonText: string
+    buttonText: string | undefined
     variant: HeroVariantEnum
 }
 

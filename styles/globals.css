@@ -43,6 +43,9 @@
             rgba(0, 0, 0, 0.661222) 100%
         );
     }
+    .bg-transparent {
+        background-color: transparent;
+    }
     .button-rect-black {
         @apply cursor-pointer whitespace-nowrap py-4 sm:py-3 font-sans uppercase px-6 text-pure-white bg-pure-black  text-[12px] leading-[16px] tracking-[2px] hover:bg-light-gray hover:text-pure-black;
     }

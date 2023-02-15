@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
-import ArrowButton from '../ArrowButton'
+import ArrowButton from '../Shared/ArrowButton'
 
 type Props = {
     title: string
     createdBy: string
-    date?: string
+    date?: Date
     images: {
         desktop: StaticImageData
         mobile: StaticImageData
@@ -19,23 +19,14 @@ const StoriesItem = ({ title, createdBy, date, images }: Props) => {
             <Image
                 src={images.desktop}
                 alt="story image"
-                className="hidden xl:block -z-40 absolute"
+                className=" -z-40 absolute"
                 style={{
                     objectFit: 'cover',
                     width: '100%',
                     height: '100%',
                 }}
             />
-            <Image
-                src={images.mobile}
-                style={{
-                    objectFit: 'cover',
-                    width: '100%',
-                    height: '100%',
-                }}
-                alt="story image"
-                className="xl:hidden absolute -z-40"
-            />
+
             {/* Content */}
             <div className="w-full h-[70%] stories-content-bg flex items-end">
                 <div className="text-pure-white w-full p-[40px]">
