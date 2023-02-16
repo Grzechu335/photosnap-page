@@ -45,7 +45,7 @@
     }
 
     .story-hover {
-        @apply after:w-full after:h-[6px] after:absolute after:left-0 after:bottom-0 after:main-accent-bg  ease-in cursor-pointer;
+        @apply after:w-0 after:h-[6px] after:absolute after:left-0 after:bottom-0 after:main-accent-bg after:ease-in after:duration-200 transition cursor-pointer hover:after:w-full;
     }
     .bg-transparent {
         background-color: transparent;
