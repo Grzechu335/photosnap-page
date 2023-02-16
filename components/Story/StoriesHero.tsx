@@ -64,7 +64,7 @@ const StoriesHero = () => {
                     </div>
                 </div>
                 {/* Stories object */}
-                <div className="grid sm:grid-cols-2 xl:grid-cols-4">
+                <div className="grid overflow-x-hidden overflow-y-hidden sm:grid-cols-2 xl:grid-cols-4">
                     {storiesData.map(
                         ({ createdBy, date, images, title }, i) => (
                             <StoriesItem
