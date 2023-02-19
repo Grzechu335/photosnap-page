@@ -25,7 +25,7 @@ const Hero = () => {
                         />
                     ))}
                 </div>
-                <div className="grid sm:grid-cols-2 xl:grid-cols-4">
+                <div className="grid overflow-hidden sm:grid-cols-2 xl:grid-cols-4">
                     {storiesData
                         .slice(0, 4)
                         .map(({ title, createdBy, images }, i) => (
