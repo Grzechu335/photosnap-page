@@ -1,12 +1,24 @@
 <div align='center'>
     <h1>Photosnap Page</h1>
     <p><i>Designed by Frontend Mentor</i></p>
+    <p><a href='https://photosnap-page.vercel.app/'>DEMO</a></p>
     <div>
         <img src='https://img.shields.io/github/deployments/grzechu335/photosnap-page/production?style=for-the-badge'/>
         <img src='https://img.shields.io/github/license/grzechu335/photosnap-page?style=for-the-badge'/>
         <img src='https://img.shields.io/github/languages/top/grzechu335/photosnap-page?style=for-the-badge'/>
     </div>
 </div>
+
+<!-- Table of contents  -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#project-screen-shot">Project Screen Shot</a></li>
+    <li><a href="#technologies">Technologies</a></li>
+    <li><a href="#getting-started">Getting started</a></li>
+  </ol>
+  </details>
 
 ## About the Project
 
