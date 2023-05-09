@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+    <h1>Photosnap Page</h1>
+    <p><i>Designed by Frontend Mentor</i></p>
+    <div>
+        <img src='https://img.shields.io/github/deployments/grzechu335/photosnap-page/production?style=for-the-badge'/>
+        <img src='https://img.shields.io/github/license/grzechu335/photosnap-page?style=for-the-badge'/>
+        <img src='https://img.shields.io/github/languages/top/grzechu335/photosnap-page?style=for-the-badge'/>
+    </div>
+</div>
+
+## About the Project
+
+Photosnap is a fully responsive, multi-page website.
+
+## Project Screen Shot
+
+![ScreenShotURL]
+
+## Technologies
+
+-   ![TypeScriptBadge]
+-   ![ReactBadge]
+-   ![NextJSBadge]
+-   ![TailwindCSSBadge]
 
 ## Getting Started
 
-First, run the development server:
+1. Clone repo by entering the command
 
-```bash
-npm run dev
-# or
-yarn dev
+```sh
+git clone https://github.com/Grzechu335/photosnap-page
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install NPM packages (you will need node and npm installed globally on your machine)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Run command on local environment
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+npm run dev
+```
 
-## Learn More
+4. To visit app:
 
-To learn more about Next.js, take a look at the following resources:
+```
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Licence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Distributed under the MIT License. See LICENSE.txt for more information.
 
-## Deploy on Vercel
+<!-- Links -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[typescriptbadge]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[reactbadge]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[nextjsbadge]: https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white
+[tailwindcssbadge]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[screenshoturl]: https://cdn.sanity.io/images/9taph1g5/production/2fc480ada0c98f32e6fae9a9fc5dc3c0c031762e-2988x1960.png
