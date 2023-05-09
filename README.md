@@ -59,4 +59,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 [reactbadge]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [nextjsbadge]: https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white
 [tailwindcssbadge]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
-[screenshoturl]: https://cdn.sanity.io/images/9taph1g5/production/2fc480ada0c98f32e6fae9a9fc5dc3c0c031762e-2988x1960.png
+[screenshoturl]: /public/assets/screenshot/screenshot.png
